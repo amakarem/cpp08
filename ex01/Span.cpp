@@ -6,21 +6,15 @@
 /*   By: aelaaser <aelaaser@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/27 16:27:10 by aelaaser          #+#    #+#             */
-/*   Updated: 2025/09/27 17:03:13 by aelaaser         ###   ########.fr       */
+/*   Updated: 2025/09/27 17:10:09 by aelaaser         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Span.hpp"
 
-Span::Span(void)
-{
-    this->N = 0;
-}
+Span::Span(void) : N(0) {}
 
-Span::Span(unsigned int _n)
-{
-    this->N = _n;
-}
+Span::Span(unsigned int _n) : N(_n) {}
 
 Span::~Span()
 {
@@ -82,7 +76,7 @@ unsigned int Span::longSpan()
 {
     if (numbers.size() < 2)
     {
-        throw std::logic_error("At least two numbers are required to calculate a span.");
+        throw not_enough_elements_error();
     }
 
     // Get the min and max elements
