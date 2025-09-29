@@ -1,28 +1,32 @@
-# cpp08
+# cpp08 - 42 School C++ Module 08
 
-A collection of C++ exercises (ex00 to ex02) demonstrating core C++ concepts and programming techniques.
+This repository contains solutions for the C++ Module 08 at 42 School, focusing on mastering templates, STL containers, and algorithms in C++98.
 
-## Repository Structure
+## 📁 Project Structure
+
 
 cpp08/
-├── ex00/ # Exercise 00
-├── ex01/ # Exercise 01
-├── ex02/ # Exercise 02
 
-## Features
+- ├── ex00/ # Exercise 00: EasyFind
+- ├── ex01/ # Exercise 01: Span
+- ├── ex02/ # Exercise 02: MutantStack
 
-- Implementation of C++ exercises from a structured curriculum.
-- Focus on modern C++ practices and problem-solving.
-- Includes Makefile for easy compilation of all exercises.
+## 🧠 Objectives
 
-## Requirements
+- **Exercise 00:** Implement a template function `easyfind` to locate an element in a container.
+- **Exercise 01:** Develop a class `Span` to find the shortest and longest spans between numbers.
+- **Exercise 02:** Create a `MutantStack` class that extends the standard stack with iterator functionality.
 
-- C++ compiler (g++ recommended)
-- Make
+## ⚙️ Requirements
 
-## Usage
+- C++98 compliant compiler (e.g., `g++`)
+- Make utility
 
-Clone the repository:
+## 🚀 Usage
+
+1. Clone the repository:
+
    ```bash
    git clone https://github.com/amakarem/cpp08.git
+   cd cpp08
 
